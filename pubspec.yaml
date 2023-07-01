@@ -36,7 +36,15 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  firebase_core: ^2.14.0
+
+  firebase_core_platform_interface: ^4.8.0 # 2023-05-11 // Dart SDK 2.18// Null Safety // ANDROID-IOS-LINUX-MACOS-WINDOWS {UNLISTED}
+  firebase_core: ^2.14.0 # 2023-06-13 // Dart SDK 2.18 // Null Safety // ANDROID-IOS-MACOS-WEB-WINDOWS
+  firebase_auth: ^4.6.3 # 2023-06-13 // Dart SDK 2.18 // Null Safety // ANDROID-IOS-MACOS-WEB
+  cloud_firestore: ^4.8.1 # 2023-06-13 // Dart SDK 2.18 // Null Safety // ANDROID-IOS-MACOS-WEB
+
+  animated_text_kit: ^4.2.2 # 2022-06-05 // Dart SDK 2.17 // Null Safety // ANDROID-IOS-LINUX-MACOS-WEB-WINDOWS
+  awesome_dialog: ^3.1.0 # 2023-05-24 // Dart SDK 2.12 // Null Safety // ANDROID-IOS-MACOS-WEB-WINDOWS
+  url_launcher: ^6.0.20 # 2023-05-09 // Dart SDK 2.18 // Null Safety // ANDROID-IOS-LINUX-MACOS-WEB-WINDOWS
 
 dev_dependencies:
   flutter_test:
